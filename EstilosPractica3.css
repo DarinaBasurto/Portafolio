@@ -1,0 +1,65 @@
+/* Página principal */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/*Para las imagenes*/
+.contenedor {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* Estilo de los encabezados */
+h2 {
+    color: #0022fe;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+h1 {
+    color: #0022fe;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Para la tabla estilizada */
+table.estilizada {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: #e6f7c2;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+}
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+tr:nth-child(odd) {
+    background-color: #92e5f7;
+}
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+tr:hover {
+    background-color: #899ca2;
+}
+
+
+/* Estilo para centrar las imágenes */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor img {
+    max-width: 300px;
+    height: auto;
+}

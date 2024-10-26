@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Tabla</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="Botón.css">
+</head>
+<body>
+    <h1>Formulario para ingresar datos</h1>
+
+    <!-- Formulario -->
+    <form id="Formulario">
+        <label for="text">Texto:</label>
+        <input type="text" id="text" name="text"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Opciones (checkbox):</label><br>
+        <input type="checkbox" id="option1" name="options" value="Opción 1"> Opción 1<br>
+        <input type="checkbox" id="option2" name="options" value="Opción 2"> Opción 2<br>
+        <input type="checkbox" id="option3" name="options" value="Opción 3"> Opción 3<br><br>
+
+        <label>Selecciona una opción (radio):</label><br>
+        <input type="radio" id="radio1" name="radioOption" value="Opción A"> Opción A<br>
+        <input type="radio" id="radio2" name="radioOption" value="Opción B"> Opción B<br>
+        <input type="radio" id="radio3" name="radioOption" value="Opción C"> Opción C<br><br>
+
+        <label for="datetime">Fecha y hora:</label>
+        <input type="datetime-local" id="datetime" name="datetime"><br><br>
+
+        <label for="color">Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="range">Rango (0-100):</label>
+        <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+        <button type="button" onclick="submitForm()">Enviar</button>
+    </form>
+
+    <!-- Tabla  -->
+    <h2>Datos ingresados:</h2>
+    <table id="TablaDeDatos">
+        <thead>
+            <tr>
+                <th>Texto</th>
+                <th>Email</th>
+                <th>Checkboxes</th>
+                <th>Radio</th>
+                <th>Fecha y Hora</th>
+                <th>Color</th>
+                <th>Rango</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="java.js"></script>
+    <a href="MainMedioTermino.html" class="home">Regresar al Menú Principal</a>
+</body>
+</html>

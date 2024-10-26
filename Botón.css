@@ -1,0 +1,26 @@
+.home {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF69B4; /* Fondo rosa vibrante */
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Elimina el subrayado */
+    border-radius: 30px; /* Bordes completamente redondeados */
+    font-size: 1.2rem; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Efecto suave */
+    margin-top: 20px; /* Espaciado superior */
+    text-align: center;
+}
+
+.home:hover {
+    background-color: #6A0DAD; /* Cambia a morado cuando se pasa el ratón */
+    color: white; /* Mantén el texto blanco */
+    transform: translateY(-5px); /* Movimiento hacia arriba al hacer hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Sombra más fuerte al hacer hover */
+}
+
+.home:active {
+    background-color: #333; /* Cambia a negro cuando se hace clic */
+    transform: translateY(0); /* Elimina el movimiento al hacer clic */
+    box-shadow: none; /* Elimina la sombra al hacer clic */

@@ -1,6 +1,7 @@
 document.getElementById("calificacionForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Evita que el formulario se envíe automáticamente
 
+    
     const calificacion = parseFloat(document.getElementById("calificacion").value);
     let resultado = "";
 

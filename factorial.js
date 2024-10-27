@@ -1,6 +1,7 @@
 document.getElementById("factorialForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Evita que el formulario se envíe automáticamente
 
+    
     const numero = parseInt(document.getElementById("numero").value);
     let resultado;
 

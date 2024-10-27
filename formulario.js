@@ -1,6 +1,7 @@
 document.getElementById("infoForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Evita que el formulario se envíe automáticamente
 
+    
     const nombre = document.getElementById("nombre").value;
     const correo = document.getElementById("correo").value;
     const edad = document.getElementById("edad").value;

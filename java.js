@@ -3,6 +3,7 @@ function submitForm() {
     const text = document.getElementById('text').value;
     const email = document.getElementById('email').value;
     
+    
     const checkboxes = document.querySelectorAll('input[name="options"]:checked');
     let checkboxValues = [];
     checkboxes.forEach((checkbox) => {
